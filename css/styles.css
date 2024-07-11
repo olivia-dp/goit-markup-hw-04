@@ -1,0 +1,304 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    display:block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+img {
+    display:block;
+    max-width: 100%;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.header {
+    
+    border-bottom: 1px solid #e7e9fc;
+}
+.header .header-container {
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+    border-bottom: 4px;   
+}
+
+.header .header-navigation {
+    display: flex;
+    align-items: center;
+}
+.logo {
+
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        margin-right: 76px;
+    }
+.logo-span {
+color: #2e2f42;
+}
+
+.header .header-nav-list {
+    display:flex;
+    gap: 40px;
+    
+}
+    
+.header .header-list-item {
+    padding: 24px 0;
+    display:block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+.header .header-list-item:hover,
+.header .header-list-item:focus {
+ color: #404bbf;
+}
+.contacts-list {
+font-style: normal;
+display: flex;
+    gap: 40px;
+}
+.contacts .contacts-link {
+    display: block;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-decoration: none;
+        
+}
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+color: #404bbf;
+}
+.hero {
+background-color: #2e2f42;
+padding: 188px 0;
+}
+ .hero .hero-container { 
+
+ } 
+.hero-header {
+    margin: 0 auto;
+    max-width: 496px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 48px;
+               
+}
+.hero .button-hero {
+    display:block;
+    margin: 0 auto;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        cursor: pointer;
+}
+.hero .button-hero:hover,
+.hero .button-hero:focus {
+ background: #404bbf;
+}
+.advantages .advantages-list {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+}
+.advantages .advantages-list-item {
+    width: calc((100% - 72px ) / 4);
+}
+.advantages .advantages-list-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+}
+
+.advantages .advantages-list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team .team-list {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+}
+.team-name {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+        margin-bottom: 72px;
+}
+.team .team-list-item {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    
+    
+}
+.team .team-card {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+.team .team-names {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        margin-bottom: 8px;
+}
+.team .team-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+.portfolio .portfolio-list {
+display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.portfolio .portfolio-list-item {
+    background-color: #FFFFFF
+    
+    width: calc((100% - 48px) / 3); }
+
+.portfolio .portfolio-card {
+padding: 32px 16px;
+border-left:1px solid #e7e9fc;
+border-right:1px solid #e7e9fc;
+border-bottom: 1px solid #e7e9fc;
+
+}
+.portfolio .projects-names {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio .projects-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+ .down-menu .footer-container {
+    
+}
+.down-menu {
+        background-color: #2e2f42;
+        padding: 100px 0;
+}
+.down-menu-text {
+    max-width: 264px;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
+.logo-down {
+    display: inline-block;
+    height: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #4d5ae5;
+        margin-bottom: 16px;
+}
+.logo-down .logo-down-span {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+}
